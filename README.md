@@ -43,7 +43,7 @@ storage: 50Gi
 Change the development file with the needed parameters
 
 ### 6. (Just for windows) Pull manually the SQL image
-Pull manually the SQL image (because a known bug on Kubernetes:https://serverfault.com/questions/1107050/context-deadline-exceeded-error-on-pod-in-kubernetes-while-pulling-a-public-im)
+Pull manually the SQL image (because a known bug on Kubernetes: https://serverfault.com/questions/1107050/context-deadline-exceeded-error-on-pod-in-kubernetes-while-pulling-a-public-im)
 ```
 docker pull mcr.microsoft.com/mssql/server
 ```
